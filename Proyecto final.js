@@ -3,7 +3,7 @@ const desktopMenu = document.querySelector('.desktop-menu');
 const menuHamIcon = document.querySelector('.menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const carritoCompras = document.querySelector('.navbar-shopping-cart');
-const aside = document.querySelector('.product-detail');
+const shoppingCart = document.querySelector('#shoppingCart');
 const cardsContainer = document.querySelector('.cards-container')
 
 navEmail.addEventListener('click', toggleDesktopMenu );
@@ -12,19 +12,19 @@ carritoCompras.addEventListener('click', toggleProducDetail );
 
 
 function toggleDesktopMenu(){
-    const isAsideClosed = aside.classList.contains('inactive');
+    const isAsideClosed = shoppingCart.classList.contains('inactive');
 
     if(!isAsideClosed){
-        aside.classList.add('inactive');
+        shoppingCart.classList.add('inactive');
     }
     desktopMenu.classList.toggle('inactive');
 }
 
 function toggleMobileMenu(){
-    const isAsideClosed = aside.classList.contains('inactive');
+    const isAsideClosed = shoppingCart.classList.contains('inactive');
 
     if(!isAsideClosed){
-        aside.classList.add('inactive');
+        shoppingCart.classList.add('inactive');
     }
     mobileMenu.classList.toggle('inactive');
 }
@@ -41,7 +41,7 @@ function toggleProducDetail(){
        desktopMenu.classList.add('inactive');
    }
 
-    aside.classList.toggle('inactive');
+    shoppingCart.classList.toggle('inactive');
 }
 
 const productList= [];
@@ -49,22 +49,16 @@ productList.push({
     name : 'Pc',
     price: 200,
     img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
-
-
 });
 productList.push({
     name : 'Bike',
     price: 120,
     img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
-
-
 });
 productList.push({
     name : 'cell',
     price: 500,
     img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
-
-
 });
 productList.push({
     name : 'Car',
