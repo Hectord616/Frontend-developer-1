@@ -267,6 +267,7 @@ nav {
     border-radius: 20px;
     object-fit: cover;
 }
+
 .product-info{
     display: flex;
     justify-content: space-between;
