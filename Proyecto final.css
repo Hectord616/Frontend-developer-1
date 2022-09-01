@@ -167,16 +167,19 @@ nav {
 /* Aside (Carrito de compras y detalles del producto) */
 aside {
     top: 61px;
-    background-color: var(--White);
+    padding: 10px 24px 10px 24px;
+    background: var(--White);
+    box-shadow: 0 8px 20px var(--Dark);
     width: 360px;
-    box-sizing: border-box;
+    border-radius: 15px;
+    box-sizing:content-box;
     position: absolute;
     right: 0;
 }
 
 /*Shopping Cart*/
 #shoppingCart{
-    padding : 0px 10px 0px 10px ;
+    padding : 10px 10px 10px 10px ;
 }
 .title-container{
     display: flex;
@@ -274,13 +277,14 @@ aside {
 
 .product-detail-close:hover {
     cursor: pointer;
+    
 }
 
 #productDetail img:nth-child(2) {
     width: 100%;
     height: 360px;
     object-fit: cover;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px;
 }
 
 #productDetail .product-info {
