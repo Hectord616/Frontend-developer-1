@@ -86,6 +86,46 @@ productList.push({
     price: 1200,
     img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
 });
+productList.push({
+    name : 'Pc',
+    price: 200,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'Bike',
+    price: 120,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'cell',
+    price: 500,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'Car',
+    price: 1200,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'Pc',
+    price: 200,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'Bike',
+    price: 120,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'cell',
+    price: 500,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
+productList.push({
+    name : 'Car',
+    price: 1200,
+    img: 'https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="product-img',
+});
 
 function renderProducts(arr){
     for(product of arr){
